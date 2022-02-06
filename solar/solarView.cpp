@@ -85,13 +85,13 @@ void CsolarView::OnDraw(CDC* pDC)
 
 
 
-	CBrush brush2(RGB(173, 216, 230));
+	CBrush brush2(RGB(0, 128, 0));
 	CBrush* pBrush2 = pDC->SelectObject(&brush2);
 	pDC->Ellipse(x + 8, y + 8, x - 8, y - 8);
 	pDC->SelectObject(pBrush2);
 
 
-	CBrush brush(RGB(255, 255, 0));
+	CBrush brush(RGB(0, 254, 0));
 	CBrush* pBrush = pDC->SelectObject(&brush);
 	pDC->Ellipse(x1 + 8, y1 + 5, x1 - 8, y1 - 8);
 	pDC->SelectObject(pBrush);
